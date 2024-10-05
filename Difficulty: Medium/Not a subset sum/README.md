@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/smallest-number-subset1220/1">Not a subset sum</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given a sorted array <strong style="user-select: auto;">arr[]</strong> of positive integers, find the smallest positive integer such that it cannot be represented as the sum of elements of any subset of the given array set.</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Examples:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input: </strong>arr[] = [1, 2, 3]
+<strong style="user-select: auto;">Output:</strong> 7
+<strong style="user-select: auto;">Explanation:</strong> 7 is the smallest positive number for which no subset is there with sum 7.
+</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input: </strong>arr[] = [3, 6, 9, 10, 20, 28]
+<strong style="user-select: auto;">Output:</strong> 1
+<strong style="user-select: auto;">Explanation:</strong> 1 is the smallest positive number for which no subset is there with sum 1.
+</span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Expected Time Complexity:</strong> O(n)<br style="user-select: auto;"><strong style="user-select: auto;">Expected Auxiliary Space:</strong>&nbsp;O(1)</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints</strong><br style="user-select: auto;">1 &lt;= arr.size()<strong style="user-select: auto;">&nbsp;</strong>&lt;= 10<sup style="user-select: auto;">6</sup><br style="user-select: auto;">1 &lt;= arr[i] &lt;= 10<sup style="user-select: auto;">8</sup></span><br style="user-select: auto;">&nbsp;</p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Salesforce</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
