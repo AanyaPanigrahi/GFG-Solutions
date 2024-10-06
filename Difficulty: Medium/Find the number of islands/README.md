@@ -1,0 +1,17 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1">Find the number of islands</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;">Given a grid of size n*m (n is the number of rows and m is the number of columns in the grid) consisting of '0's (Water)&nbsp;and '1's(Land). Find the number of islands.</span><br style="user-select: auto;"><br style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Note:&nbsp;</strong>An island is either surrounded by water or the boundary of a grid and is formed by connecting adjacent lands horizontally or vertically or diagonally i.e., in all 8 directions.</span></p>
+<p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Examples:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Input: </strong>grid = [[0,1],[1,0],[1,1],[1,0]]
+<strong style="user-select: auto;">Output: </strong>1
+<strong style="user-select: auto;">Explanation:
+</strong>The grid is-
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700273/Web/Other/blobid0_1728204704.png" alt="" style="user-select: auto;">
+All lands are connected.
+</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Input: </strong>grid = [[0,1,1,1,0,0,0],[0,0,1,1,0,1,0]]
+<strong style="user-select: auto;">Output: </strong>2
+<strong style="user-select: auto;">Expanation:
+</strong>The grid is-<br style="user-select: auto;"> <img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700273/Web/Other/blobid1_1728204704.png" alt="" style="user-select: auto;">
+There are two islands :- one is colored in "blue" and other in "red".
+</span></pre>
+<p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Expected Time Complexity:&nbsp;</strong>O(n*m)<br style="user-select: auto;"><strong style="user-select: auto;">Expected Space Complexity:&nbsp;</strong>O(n*m)</span></p>
+<p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">1 ≤ n, m ≤ 500<br style="user-select: auto;"><span style="background-color: rgb(255, 255, 255); font-family: Arial; white-space-collapse: preserve; user-select: auto;">grid[i][j] = {'</span>0', '1'}</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>OYO Rooms</code>&nbsp;<code>Samsung</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>Citrix</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Ola Cabs</code>&nbsp;<code>Visa</code>&nbsp;<code>Intuit</code>&nbsp;<code>Google</code>&nbsp;<code>Linkedin</code>&nbsp;<code>Opera</code>&nbsp;<code>One97</code>&nbsp;<code>Streamoid Technologies</code>&nbsp;<code>Informatica</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>DFS</code>&nbsp;<code>Graph</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
