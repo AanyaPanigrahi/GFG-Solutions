@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/root-to-leaf-paths-sum/1">Root to leaf paths sum</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given a binary tree, where every node value is a number. Find the sum of all the numbers that are formed from root to leaf paths. The formation of the numbers would be like 10*parent + current (see the examples for more clarification).</span></p>
+<p style="user-select: auto;"><strong style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Examples:</span></strong></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:      </strong>
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700454/Web/Other/blobid0_1730705508.png" width="273" height="244" style="user-select: auto;"></span>
+<span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Output:</strong> 13997</span>
+<span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Explanation : </strong>There are 4 leaves, resulting in leaf path of 632, 6357, 6354, 654 sums to 13997.</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:    </strong>
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700454/Web/Other/blobid1_1730705776.png" width="261" height="231" style="user-select: auto;"></span>
+<span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Output:</strong> 2630</span>
+<span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Explanation: </strong>There are 3 leaves, resulting in leaf path of 1240, 1260, 130 sums to 2630.<br style="user-select: auto;"></span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:    </strong>
+           1<br style="user-select: auto;">          /<br style="user-select: auto;">         2                    </span>
+<span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Output:</strong> 12</span>
+<span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Explanation: </strong>There is 1 leaf, resulting in leaf path of 12.</span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">1 ≤ number of nodes ≤ 31<br style="user-select: auto;">1 ≤ node-&gt;data ≤ 100<br style="user-select: auto;"></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>OYO Rooms</code>&nbsp;<code>Google</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;<code>Data Structures</code>&nbsp;
