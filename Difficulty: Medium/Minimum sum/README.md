@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-sum4058/1">Minimum sum</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given an array <strong style="user-select: auto;">arr[]</strong> such that each element is in the range [0 - 9], find the minimum possible sum of two numbers formed using the elements of the array. All digits in the given array must be used to form the two numbers. Return a string without leading zeroes.</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Examples :</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input: </strong>arr[] = [6, 8, 4, 5, 2, 3]
+<strong style="user-select: auto;">Output:</strong> 604
+<strong style="user-select: auto;">Explanation:</strong> The minimum sum is formed by numbers 358 and 246.</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input: </strong>arr[] = [5, 3, 0, 7, 4]
+<strong style="user-select: auto;">Output:</strong> 82
+<strong style="user-select: auto;">Explanation:</strong> The minimum sum is formed by numbers 35 and 047.<br style="user-select: auto;"></span></pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input: </strong>arr[] = [9, 4]
+<strong style="user-select: auto;">Output:</strong> 13
+<strong style="user-select: auto;">Explanation:</strong> The minimum sum is formed by numbers 9 and 4.</span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">1 ≤ arr.size() ≤ 10<sup style="user-select: auto;">6</sup><br style="user-select: auto;">0 ≤ arr[i] ≤ 9</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Google</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Sorting</code>&nbsp;<code>Binary Search</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
