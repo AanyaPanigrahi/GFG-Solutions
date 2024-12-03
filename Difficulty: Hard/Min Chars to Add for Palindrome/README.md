@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-characters-to-be-added-at-front-to-make-string-palindrome/1">Min Chars to Add for Palindrome</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given a string <strong style="user-select: auto;">s</strong>,<strong style="user-select: auto;"> </strong>the task is to find the minimum characters to be added at the front to make the string palindrome.</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Note: A palindrome string is a sequence of characters that reads the same forward and backward.</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Examples:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input: </strong>s = "abc"
+<strong style="user-select: auto;">Output: </strong>2
+<strong style="user-select: auto;">Explanation: </strong>Add 'b' and 'c' at front of above string to make it palindrome : "<strong style="user-select: auto;">cb</strong>abc"</span>
+</pre>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input: </strong>s = "aacecaaaa"
+<strong style="user-select: auto;">Output: </strong>2
+<strong style="user-select: auto;">Explanation:</strong> Add 2 a's at front of above string to make it palindrome : "<strong style="user-select: auto;">aa</strong>aacecaaaa"</span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">1 &lt;= s.size() &lt;= 10<sup style="user-select: auto;">6</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
