@@ -6,32 +6,24 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    void sort012(vector<int>& a) {
+    void sort012(vector<int>& arr) {
         // code here
-        int n=a.size();
-        int c0 = 0, c1 = 0, c2 = 0;
-
-    for (int i = 0; i < n; i++) {
-        if (a[i] == 0) {
-            c0 += 1;
+        int j=0;
+        int temp;
+        for(int i=0;i<arr.size();i++){
+            if(arr[i]==0){
+                temp=arr[j];
+                arr[j++]=0;
+                arr[i]=temp;
+            }
         }
-        else if (a[i] == 1) {
-            c1 += 1;
+        for(int k=j;k<arr.size();k++){
+            if(arr[k]==1){
+                temp=arr[j];
+                arr[j++]=1;
+                arr[k]=temp;
+            }
         }
-        else {
-            c2 += 1;
-        }
-    }
-
-    int idx = 0;
-    for (int i = 0; i < c0; i++)
-        a[idx++] = 0;
-
-    for (int i = 0; i < c1; i++)
-        a[idx++] = 1;
-
-    for (int i = 0; i < c2; i++)
-        a[idx++] = 2;
     }
 };
 
@@ -61,6 +53,7 @@ int main() {
         }
 
         cout << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
