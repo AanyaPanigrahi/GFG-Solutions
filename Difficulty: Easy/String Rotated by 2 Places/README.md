@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/check-if-string-is-rotated-by-two-places-1587115620/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab">String Rotated by 2 Places</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;">Given two strings <strong style="user-select: auto;">s1 </strong>and <strong style="user-select: auto;">s2</strong>. Return true if the string <strong style="user-select: auto;">s2</strong> can be obtained by rotating&nbsp;(<strong style="user-select: auto;">in any direction</strong>) string <strong style="user-select: auto;">s1</strong> by <strong style="user-select: auto;">exactly 2</strong> places, otherwise, false.</span></p>
+<p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Examples:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Input: </strong>s1 = "amazon", s2 = "azonam"
+<strong style="user-select: auto;">Output: </strong>true<strong style="user-select: auto;">
+Explanation: "</strong>amazon" can be rotated anti-clockwise by two places, which will make it as "azonam".
+</span></pre>
+<pre style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Input: </strong>s1 = "geeksforgeeks", s2 = "geeksgeeksfor"
+<strong style="user-select: auto;">Output: </strong>false<strong style="user-select: auto;">
+Explanation: </strong>If we rotate "geeksforgeeks" by two place in any direction, we won't get "geeksgeeksfor".<br style="user-select: auto;"></span></pre>
+<pre style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Input: </strong>s1 = "ab", s2 = "ab"
+<strong style="user-select: auto;">Output: </strong>false</span></pre>
+<p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Challenge: </strong>Try doing it in O(1) space complexity</span></p>
+<p style="user-select: auto;"><span style="font-size: 14pt; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">1 ≤ s1.length, s2.length ≤ 10<sup style="user-select: auto;">5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;<code>Data Structures</code>&nbsp;
